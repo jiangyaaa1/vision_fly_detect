@@ -1,0 +1,25 @@
+%YAML:1.0
+---
+# 普通YOLOv8模板，不是当前深大模型的启动入口；默认请使用configs/maixcam.yaml。
+# 只调试YOLO/角点，不要求标定，不执行PnP，也不会输出有效三维坐标。
+localization_enabled: 0
+# 请改成你已上传到MaixCAM的目标模型路径，不能使用pt/onnx。
+model_path: "/root/models/target.mud"
+class_id: 0             # 你要观察的类别编号
+confidence: 0.60
+iou: 0.45
+image_width: 640
+image_height: 480
+camera_fps: 60          # 当前GC4653板上预览使用的720p60传感器模式
+display: 0             # 0只在电脑看网页；1同时显示板端屏幕叠加图
+debug_stream: 1
+debug_port: 8000
+debug_fps: 10          # 仅调试推流上限，实际速度由推理耗时决定
+corner_mode: "contour" # Detect找真实轮廓；自训四点Pose可改为keypoints
+keypoint_indices: [0, 1, 2, 3]
+roi_expand: 0.10
+min_quad_area: 100.
+min_fill_ratio: 0.30
+max_roll_deg: 40.
+pose_mode: "none"
+output_path: "debug_detections.jsonl"

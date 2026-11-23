@@ -1,0 +1,9 @@
+id: camera_preview
+name: MaixCAM Camera Preview
+name[zh]: MaixCAM 实时相机
+version: 1.0.0
+author: local
+desc: MaixCDK C++ camera, display and HTTP JPEG preview
+desc[zh]: MaixCDK C++ 相机屏幕和网页实时预览
+files:
+  app.yaml: app.yaml

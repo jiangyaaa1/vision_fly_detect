@@ -1,0 +1,15 @@
+#!/bin/sh
+# vision_fly_detect开机服务：不依赖USB网络或电脑窗口。
+app=/root/vision_fly_detect_infantry
+case "$1" in
+    start|stop|restart)
+        /usr/bin/python3 "$app/board/vision_service.py" "$1" >> "$app/autostart.log" 2>&1
+        ;;
+    status)
+        exec /usr/bin/python3 "$app/board/vision_service.py" status
+        ;;
+    *)
+        echo "Usage: $0 {start|stop|restart|status}" >&2
+        exit 1
+        ;;
+esac

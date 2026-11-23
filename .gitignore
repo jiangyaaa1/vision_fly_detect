@@ -1,0 +1,24 @@
+/build/
+/build-host/
+/dist/
+/dl/
+/CMakeLists.txt
+*.cvimodel
+*.onnx
+*.pt
+__pycache__/
+/.local/
+/examples/camera_preview/build/
+/examples/camera_preview/dist/
+/examples/camera_preview/CMakeLists.txt
+/captures/
+
+# Local recordings, editor backups, and credentials
+/video/
+*.orig
+*.bak
+.env
+.env.*
+!.env.example
+*.pem
+*.key

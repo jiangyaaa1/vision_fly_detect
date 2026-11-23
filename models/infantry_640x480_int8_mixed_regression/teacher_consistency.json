@@ -1,0 +1,134 @@
+{
+  "reference": "original640x480FP32; proxy consistency, not ground truth accuracy",
+  "heldout_video": "/home/jhh/code/vision_fly_detect/.local/infantry-fast/videos/远距离平移.avi",
+  "frames": 20,
+  "teacher_detections": 20,
+  "matched": 20,
+  "teacher_match_ratio": 1.0,
+  "unmatched_candidate": 0,
+  "corner_mean_px": 0.11999425624962896,
+  "corner_p95_px": 0.2303002633154392,
+  "corner_max_px": 0.34146949648857117,
+  "per_frame": [
+    {
+      "frame": 0,
+      "teacher": 1,
+      "candidate": 1,
+      "matched": 1
+    },
+    {
+      "frame": 81,
+      "teacher": 1,
+      "candidate": 1,
+      "matched": 1
+    },
+    {
+      "frame": 162,
+      "teacher": 1,
+      "candidate": 1,
+      "matched": 1
+    },
+    {
+      "frame": 243,
+      "teacher": 1,
+      "candidate": 1,
+      "matched": 1
+    },
+    {
+      "frame": 324,
+      "teacher": 1,
+      "candidate": 1,
+      "matched": 1
+    },
+    {
+      "frame": 405,
+      "teacher": 1,
+      "candidate": 1,
+      "matched": 1
+    },
+    {
+      "frame": 486,
+      "teacher": 1,
+      "candidate": 1,
+      "matched": 1
+    },
+    {
+      "frame": 567,
+      "teacher": 1,
+      "candidate": 1,
+      "matched": 1
+    },
+    {
+      "frame": 648,
+      "teacher": 1,
+      "candidate": 1,
+      "matched": 1
+    },
+    {
+      "frame": 729,
+      "teacher": 1,
+      "candidate": 1,
+      "matched": 1
+    },
+    {
+      "frame": 810,
+      "teacher": 1,
+      "candidate": 1,
+      "matched": 1
+    },
+    {
+      "frame": 891,
+      "teacher": 1,
+      "candidate": 1,
+      "matched": 1
+    },
+    {
+      "frame": 972,
+      "teacher": 1,
+      "candidate": 1,
+      "matched": 1
+    },
+    {
+      "frame": 1053,
+      "teacher": 1,
+      "candidate": 1,
+      "matched": 1
+    },
+    {
+      "frame": 1134,
+      "teacher": 1,
+      "candidate": 1,
+      "matched": 1
+    },
+    {
+      "frame": 1215,
+      "teacher": 1,
+      "candidate": 1,
+      "matched": 1
+    },
+    {
+      "frame": 1296,
+      "teacher": 1,
+      "candidate": 1,
+      "matched": 1
+    },
+    {
+      "frame": 1377,
+      "teacher": 1,
+      "candidate": 1,
+      "matched": 1
+    },
+    {
+      "frame": 1458,
+      "teacher": 1,
+      "candidate": 1,
+      "matched": 1
+    },
+    {
+      "frame": 1539,
+      "teacher": 1,
+      "candidate": 1,
+      "matched": 1
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "width": 640,
+  "height": 480,
+  "candidate_count": 6300,
+  "quantization": "int8_mixed",
+  "calibration_method": "max",
+  "tensor_tolerance": "0.90,0.60",
+  "input_preprocess": "RGB /255, centered letterbox fill124",
+  "calibration_frames": 64,
+  "calibration_source": "public upstream armor and medium-range video; not deployment-camera calibration",
+  "sha256": "31abfb32ad78a43a2d8b731dd0f45bdf39619833d4d412714d0c0fb8b18383d8",
+  "board_validated": false
+}

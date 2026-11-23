@@ -1,0 +1,9 @@
+{
+  "host": "10.154.34.1",
+  "username": "root",
+  "port": 22,
+  "preview_port": 8000,
+  "width": 640,
+  "height": 480,
+  "display": false
+}

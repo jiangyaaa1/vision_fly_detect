@@ -1,0 +1,11 @@
+id: vision_fly_detect
+name: Vision Fly Detect
+name[zh]: 无人机目标定位
+version: 1.0.0
+author: local
+desc: MaixCAM YOLOv8检测、真实角点、平面PnP及NED相对定位
+files:
+  app.yaml: app.yaml
+  configs: configs
+  board: board
+  models: models

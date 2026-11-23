@@ -1,0 +1,43 @@
+{
+  "width": 640,
+  "height": 480,
+  "candidate_count": 6300,
+  "quantization": "int8_mixed_regression",
+  "calibration_method": "max",
+  "tensor_tolerance": "0.90,0.60",
+  "precision_policy": "regression",
+  "input_preprocess": "RGB /255, centered letterbox fill124",
+  "calibration_frames": 64,
+  "calibration_source": "public upstream armor and medium-range video; not deployment-camera calibration",
+  "sha256": "e8250e1f0f0f71cb77179f46afb3d3a4713fecb810b4565e8e64320f6e74ea18",
+  "board_validated": true,
+  "source_sha256": "8b735d0e68faf330e351e353be9f792954512cfaf64f054123c466f755a6fe1e",
+  "full_pipeline_benchmark": {
+    "fixture_only": "1",
+    "frames": "300",
+    "pnp_frames": "300",
+    "world_transform_frames": "300",
+    "fps": "22.2889",
+    "mean_ms": "44.8654",
+    "p95_ms": "47.1438",
+    "inference_ms": "40.1732",
+    "corner_pnp_transform_ms": "3.40027",
+    "debug_submit_ms": "1.29197",
+    "asynchronous_display": "1",
+    "camera_capture_included": "0",
+    "calibration": "SYNTHETIC",
+    "attitude": "SYNTHETIC",
+    "output_not_for_navigation": "1"
+  },
+  "benchmark_scope": "fixed real armor image repeated, simulated calibration/attitude, includes async debug encoding, excludes camera capture; not navigation accuracy",
+  "teacher_consistency_file": "teacher_consistency.json",
+  "camera_model_resolution_unchanged": true,
+  "live_processing": {
+    "samples": 60,
+    "fps_min": 16.9582,
+    "fps_median": 19.3436,
+    "fps_max": 19.6643,
+    "nominal_frames_per_sample": 30,
+    "condition": "live640x480 camera + model + async10FPSpreview; no armor in current scene, no successful calibrated PnP"
+  }
+}

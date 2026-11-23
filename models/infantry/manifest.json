@@ -1,0 +1,53 @@
+{
+  "source": "/home/jhh/桌面/Infantry-v8n-fp16-20260726-D1.8w-B16.onnx",
+  "source_sha256": "8b735d0e68faf330e351e353be9f792954512cfaf64f054123c466f755a6fe1e",
+  "export_sha256": "d1235519d4a6c1621203167e3724ad3cc047cee75ffc9b3d9c7f2ba6da111d87",
+  "input_shape": [
+    1,
+    3,
+    480,
+    640
+  ],
+  "outputs": [
+    "/model.22/Concat_output_0",
+    "/model.22/Sigmoid_output_0",
+    "/model.22/Sigmoid_1_output_0"
+  ],
+  "reconstruction_max_abs_error": 3.0517578125e-05,
+  "board_validated": true,
+  "quantization": "BF16",
+  "chip": "cv181x",
+  "converter": "tpu_mlir==1.30.2",
+  "model_sha256": "269e0179cf6744a75b5ce855fb3b054a8382be4d30a4d850532840375a8e1f97",
+  "conversion_reference_passed": true,
+  "board_test": {
+    "date": "2026-11-09",
+    "board": "MaixCAM Lite riscv64",
+    "test_image": "SZURPVision 测试视频/装甲板.mp4 at 2 seconds resized 640x480",
+    "detected_class": 3,
+    "color": 0,
+    "score": 0.960938,
+    "corners": [
+      [
+        313.125,
+        319.188
+      ],
+      [
+        314.25,
+        341.438
+      ],
+      [
+        370.5,
+        338.938
+      ],
+      [
+        369.25,
+        317.125
+      ]
+    ],
+    "inference_ms": 126.023,
+    "max_corner_delta_to_fp32_px": 0.12233202703352142,
+    "scope": "single-image detection/corners and live camera HTTP; no calibrated PnP acceptance",
+    "live_full_pipeline_fps": 3.56
+  }
+}
